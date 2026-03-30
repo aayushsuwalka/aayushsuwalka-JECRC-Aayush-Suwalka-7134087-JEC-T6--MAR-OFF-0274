@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.12 on win32)" generated="2026-03-30T16:31:52.860213" rpa="false" schemaversion="5">
+<suite id="s1" name="Task 3" source="C:\Users\aayus_ucf5jw3\OneDrive\Desktop\Selenium_and_Robot_Framework\30th March 2026\task_3.robot">
+<test id="s1-t1" name="Navigate" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:31:55.795201" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-30T16:31:55.791457" elapsed="15.003808"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-30T16:32:10.804799" elapsed="0.824866"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:32:13.905065" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:32:11.689710" elapsed="2.252496"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:32:13.971379" level="INFO">Clicking element 'xpath=(//div[@id="nav-xshop-container"]/descendant::li[@class='nav-li'])[11]'.</msg>
+<arg>xpath=(//div[@id="nav-xshop-container"]/descendant::li[@class='nav-li'])[11]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:32:13.964564" elapsed="25.765793"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:32:41.746477" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:32:39.740845" elapsed="2.006804"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:32:41.753329" level="INFO">Clicking element 'xpath=(//span[@class='a-size-base a-color-base'])[6]'.</msg>
+<arg>xpath=(//span[@class='a-size-base a-color-base'])[6]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:32:41.750465" elapsed="7.694111"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:32:51.450997" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:32:49.447183" elapsed="2.004668"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:32:53.872923" level="INFO">${item} = Boat Wave Call 3 Smartwatch 1.83” HD Display with Animated Watch Faces; BT Calling, Functional Crown, Multiple Sports Modes, IP68, HR, SpO2 Monitor, Smart Watches for Men &amp; Women (Bold Black)</msg>
+<var>${item}</var>
+<arg>(//div[@data-cy='title-recipe'])[6]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:32:51.454391" elapsed="2.419365"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${item}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T16:32:53.876270" elapsed="0.004166"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:32:53.885908" level="INFO">Clicking element '(//div[@data-cy='title-recipe'])[6]'.</msg>
+<arg>(//div[@data-cy='title-recipe'])[6]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:32:53.884142" elapsed="2.880862"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:32:58.773722" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:32:56.767754" elapsed="2.007169"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:32:58.778034" elapsed="0.244154"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:15.899919" level="INFO">Current page contains text 'Boat Wave Call 3 Smartwatch 1.83” HD Display with Animated Watch Faces; BT Calling, Functional Crown, Multiple Sports Modes, IP68, HR, SpO2 Monitor, Smart Watches for Men &amp; Women (Bold Black)'.</msg>
+<arg>${item}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T16:32:59.024832" elapsed="16.875936"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:33:17.908077" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:33:15.903376" elapsed="2.006528"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:19.495247" level="INFO">${d_price} = -80%
+₹1,399</msg>
+<var>${d_price}</var>
+<arg>xpath=(//div[@class='a-section a-spacing-none aok-align-center aok-relative apex-core-price-identifier'])[1]</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:33:17.913130" elapsed="1.582858"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${d_price}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T16:33:19.498280" elapsed="0.005455"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:20.275514" level="INFO">${a_price} = M.R.P.:
+₹6,999</msg>
+<var>${a_price}</var>
+<arg>xpath=//div[@class='a-section a-spacing-small aok-align-center']</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:33:19.505562" elapsed="0.770329"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${a_price}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-30T16:33:20.280570" elapsed="0.007086"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:33:22.296763" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:33:20.290548" elapsed="2.007192"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath=(//span[text()="Add to cart"])[3]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-03-30T16:33:22.300580" elapsed="1.071127"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:23.375601" level="INFO">Clicking element 'xpath=(//span[text()="Add to cart"])[3]/preceding-sibling::input'.</msg>
+<arg>xpath=(//span[text()="Add to cart"])[3]/preceding-sibling::input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:33:23.374034" elapsed="6.352232"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:33:31.737090" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:33:29.729243" elapsed="2.008623"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:31.741778" level="INFO">Clicking element 'xpath=//div[@class='layoutToolbarPadding']/descendant::div[@id='nav-cart-count-container']'.</msg>
+<arg>xpath=//div[@class='layoutToolbarPadding']/descendant::div[@id='nav-cart-count-container']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-30T16:33:31.740153" elapsed="5.006204"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:33:38.754257" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:33:36.749788" elapsed="2.005443"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-30T16:33:38.947789" level="INFO">Current page contains text 'Boat Wave Call 3 Smartwatch 1.83” HD Display with Animated Watch Faces; BT Calling, Functional Crown, Multiple Sports Modes, IP68, HR, SpO2 Monitor, Smart Watches for Men &amp; Women (Bold Black)'.</msg>
+<arg>${item}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-03-30T16:33:38.757738" elapsed="0.193826"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-30T16:33:40.958819" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-30T16:33:38.955024" elapsed="2.004948"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T16:33:40.962819" elapsed="4.430368"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-30T16:33:45.395474" elapsed="0.001151"/>
+</kw>
+<status status="PASS" start="2026-03-30T16:31:55.777719" elapsed="109.622395"/>
+</test>
+<status status="PASS" start="2026-03-30T16:31:52.885742" elapsed="112.524916"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task 3" id="s1" pass="1" fail="0" skip="0">Task 3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

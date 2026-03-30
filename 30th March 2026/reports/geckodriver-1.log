@@ -1,0 +1,16 @@
+1774855316610	geckodriver	INFO	Listening on 127.0.0.1:61218
+1774855319781	mozrunner::runner	INFO	Running command: "C:\\Users\\aayus_ucf5jw3\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-de ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\AAYUS_~1\\AppData\\Local\\Temp\\rust_mozprofile6IQCYs"
+Dynamically enable window occlusion 0
+1774855320282	Marionette	INFO	Marionette enabled
+1774855320397	Marionette	INFO	Listening on port 53820
+WebDriver BiDi listening on ws://127.0.0.1:61219
+Read port: 53820
+1774855320613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/BrowserUtils.sys.mjs :: formatURIForDisplay :: line 346"  data: no]
+console.error: [Exception... "Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]"  nsresult: "0x80004002 (NS_NOINTERFACE)"  location: "JS frame :: resource://gre/modules/BrowserUtils.sys.mjs :: formatURIForDisplay :: line 346"  data: no]
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: AboutNewTabResourceMapping: "train-hop add-on install failure: Error: Unexpected download cancelled while downloading xpi from https://archive.mozilla.org/pub/system-addons/newtab/newtab-150.1.0-build1/newtab.xpi"
+1774855328252	Marionette	INFO	Stopped listening on port 53820
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
